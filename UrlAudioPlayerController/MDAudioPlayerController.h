@@ -20,7 +20,8 @@
 	NSUInteger			selectedIndex;
 	
 	AVAudioPlayer		*player;
-	
+	AVPlayer		    *avPlayer;
+
 	CAGradientLayer		*gradientLayer;
 	
 	UIButton			*playButton;
@@ -59,6 +60,7 @@
 @property (nonatomic, copy) NSString *soundFilesPath;
 
 @property (nonatomic, retain) AVAudioPlayer *player;
+@property (nonatomic, retain) AVPlayer *avPlayer;
 
 @property (nonatomic, retain) CAGradientLayer *gradientLayer;
 

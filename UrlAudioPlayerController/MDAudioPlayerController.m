@@ -22,6 +22,7 @@ static const CGFloat kDefaultReflectionOpacity = 0.40;
 @synthesize soundFilesPath;
 
 @synthesize player;
+@synthesize avPlayer;
 @synthesize gradientLayer;
 
 @synthesize playButton;
